@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,14 +28,20 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  transform: skewX(-24deg);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+.contentbox {
+  background-image: linear-gradient(deg, #3603B1, #ff0099);
+}
 form {
-  display: block;
+  
+  margin: 0 auto;
+  transform: skewX(24deg);
 }
 
 button {

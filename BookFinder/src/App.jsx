@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
 
   return (
     <>
+        <div className="contentbox">
       <h1>Book Finding app</h1>
+
         <form>
+
   <label>
     Title:
     <input type="text" name="name" placeholder='Misery' />
@@ -23,12 +24,8 @@ function App() {
   </label>
   <input type="submit" value="Submit" />
 
-
-
-
-
 </form>
-
+</div>
 
 
     </>
